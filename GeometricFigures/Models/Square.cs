@@ -32,7 +32,7 @@ namespace GeometricFigures.Models
         }
 
         // Constructor
-        public Square(double a) : base("Square")
+        public Square(string name, double a) : base("Square")
         {
             ValidateA(a);
             _a = a;

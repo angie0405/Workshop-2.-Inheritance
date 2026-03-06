@@ -1,4 +1,4 @@
-namespace GeometricFigures.Models
+﻿namespace GeometricFigures.Models
 {
     internal class Circle : GeometricFigure
     {
@@ -19,6 +19,7 @@ namespace GeometricFigures.Models
         // Constructor
         public Circle(string name, double r) : base("Circle")
         {
+            Name = "Circle";
             ValidateR(r);
             R = r;
         }
