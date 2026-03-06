@@ -7,6 +7,13 @@
       <FileName>Models\Circle.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="GeometricFigures.Models.Square">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAQAAAAAAAAAAAAAAAAAEAAAAAMAAAAAA=</HashCode>
+      <FileName>Models\Square.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="GeometricFigures.Models.GeometricFigure">
     <Position X="6.25" Y="1.5" Width="1.5" />
     <Members>
@@ -43,13 +50,6 @@
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAQAAAAAAEIAAkAEAAAAAA=</HashCode>
       <FileName>Models\Rhombus.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="GeometricFigures.Models.Square">
-    <Position X="6.25" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAACAQAAAAAAAAAAAAAAAAAEAAAAAMAAAAAA=</HashCode>
-      <FileName>Models\Square.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GeometricFigures.Models.Trapeze">
