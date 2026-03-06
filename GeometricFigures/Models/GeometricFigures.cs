@@ -4,11 +4,11 @@ using System.Text;
 
 namespace GeometricFigures.Models
 {
-    public abstract class GeometricFigures
+    public abstract class GeometricFigure
     {
         public string Name { get; protected set; }
 
-        protected GeometricFigures(string name)
+        protected GeometricFigure(string name)
         {
             Name = name;
         }
