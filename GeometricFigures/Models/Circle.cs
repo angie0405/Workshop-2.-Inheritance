@@ -1,7 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace GeometricFigures.Models
 {
     internal class Circle : GeometricFigure
@@ -21,10 +17,10 @@ namespace GeometricFigures.Models
         }
 
         // Constructor
-        public Circle(double r) : base("Circle")
+        public Circle(string name, double r) : base("Circle")
         {
             ValidateR(r);
-            _r = r;
+            R = r;
         }
 
         // Methods
