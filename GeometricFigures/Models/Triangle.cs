@@ -44,10 +44,12 @@ namespace GeometricFigures.Models
         }
 
         // Constructor
-        public Triangle(string name, double a, double b, double c) : base(name, a, b)
+        public Triangle(string name, double a, double b, double c, double h) : base(name, a, b)
         {
             ValidateC(c);
+            ValidateH(h);
             C = c;
+            H = h;
             Name = "Triangle";
         }
 

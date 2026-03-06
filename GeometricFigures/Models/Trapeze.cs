@@ -28,10 +28,12 @@
         }
 
         // Constructor
-        public Trapeze(string name, double a, double b, double c, double d) : base(name, a, b, c)
+        public Trapeze(string name, double a, double b, double c, double d, double h) : base(name, a, b, c, h)
         {
             ValidateD(d);
+
             D = d;
+
             Name = "Trapeze";
         }
 

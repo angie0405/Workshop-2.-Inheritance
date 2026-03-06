@@ -28,7 +28,7 @@ namespace GeometricFigures.Models
             return 2 * (A + B);
         }
         // Constructor
-        public Parallelogram(string name, double a, double b, double h) : base(a, b)
+        public Parallelogram(string name, double a, double b, double h) : base(name, a, b)
         {
             ValidateH(h);
             H = h;

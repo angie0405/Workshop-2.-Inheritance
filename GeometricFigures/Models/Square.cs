@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GeometricFigures.Models
+﻿namespace GeometricFigures.Models
 {
     internal class Square : GeometricFigure
     {
@@ -35,7 +31,7 @@ namespace GeometricFigures.Models
         public Square(string name, double a) : base("Square")
         {
             ValidateA(a);
-            _a = a;
+            A = a;
         }
 
         // Validation helper
